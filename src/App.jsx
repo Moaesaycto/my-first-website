@@ -2,6 +2,7 @@ import Counter from "./Counter";
 import { useState } from "react";
 
 
+// Simple component with a global counter
 function App() {
   const [totalCount, setTotalCount] = useState(0);
   
